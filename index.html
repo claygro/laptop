@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>daraz</title>
+  </head>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: sans-serif;
+      background-color: gainsboro;
+      height: 700px;
+      border-top: 5px solid;
+      border-bottom: 5px solid;
+      border-right: 5px solid;
+      border-left: 5px solid;
+    }
+
+    h1 {
+      font-size: 50px;
+      font-family: sans-serif;
+      grid-column: 1 / -1;
+    }
+    img {
+      border-top: 5px solid;
+      border-bottom: 5px solid;
+      border-left: 5px solid;
+      border-right: 5px solid;
+      width: 350px;
+    }
+    .laptop {
+      display: grid;
+      grid-template-columns: 350px 1fr 1fr;
+    }
+    p {
+      font-size: 50px;
+      color: blue;
+      display: flex;
+      margin-left: 20px;
+    }
+    .under {
+      font-size: 50px;
+
+      grid-column: -4 / -2;
+      color: blueviolet;
+    }
+    .detail {
+      font-size: 30px;
+      margin-top: 20px;
+      color: green;
+      grid-column: 3 / -1;
+      margin-top: -25rem;
+    }
+    .boy {
+      display: grid;
+      grid-template-columns: 20px 20px 20px 20px;
+      gap: 10px;
+    }
+    .colors {
+      grid-column: -4 / -2;
+    }
+    .color {
+      width: 20px;
+      height: 20px;
+      background-color: black;
+    }
+    .color-blue {
+      width: 20px;
+      height: 20px;
+      background-color: blue;
+    }
+    .color-red {
+      width: 20px;
+      height: 20px;
+      background-color: red;
+    }
+    .color-green {
+      width: 20px;
+      height: 20px;
+      background-color: green;
+    }
+    p4 {
+      font-size: 40px;
+      color: violet;
+    }
+    .product {
+      display: grid;
+      grid-template-columns: 350px 1fr 1fr;
+    }
+    .cart {
+      text-align: center;
+      margin-top: 30px;
+
+      height: 40px;
+      align-content: center;
+    }
+    a:hover {
+      font-size: 60px;
+      background-color: black;
+    }
+  </style>
+  <body>
+    <div class="product">
+      <h1><span>Acer Aspire 5</span></h1>
+      <div class="laptop">
+        <img
+          src="https://static-01.daraz.com.np/p/993cd0a312c7298cc4ecc2e3005406e8.jpg_300x0q75.webp"
+          alt="remote image"
+        />
+
+        <p>Price is 850000</p>
+      </div>
+    </div>
+    <div class="product">
+      <div class="under">
+        <p1>Best laptop under 90000</p1>
+      </div>
+
+      <div class="colors">
+        <p4>We've have different color laptop</p4>
+        <div class="boy">
+          <div class="color"></div>
+          <div class="color color-blue"></div>
+          <div class="color color-red"></div>
+          <div class="color color-green"></div>
+        </div>
+      </div>
+      <div class="detail">
+        <p3>Product detail</p3>
+        <ol>
+          <li>Light weight</li>
+          <li>Thin and light</li>
+          <li>Full metalic look</li>
+          <li>Full hd</li>
+          <li>Intel i5 13th Generation</li>
+          <li>8 gb ddr5 ram and 512 gb ssd</li>
+        </ol>
+      </div>
+    </div>
+    <div class="cart">
+      <a
+        href="https://www.daraz.com.np/products/acer-aspire-5-i5-13th-generation-8gb-ddr5-ram-512gb-nvme-ssd-intel-iris-xe-graphics-14-fhd-ips-display-steel-grey-i128212224-s1035333820.html?spm=a2a0e.searchlist.sku.2.394a961brrFASA&search=1"
+        ><span style="color: red">ADD TO CART</span></a
+      >
+    </div>
+  </body>
+</html>
